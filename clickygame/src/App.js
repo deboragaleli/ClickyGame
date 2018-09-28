@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Panel from "./components/Panel";
 import cards from "./cards.json";
 
 
@@ -45,16 +46,19 @@ class App extends Component {
           this.state.cards.sort(() => Math.random() - 0.5)
           return true; 
         } else {
-          this.gameOver();
+          return this.gameOver();
         }
       }
+
+      return false;
     });
   }
   // Map over this.state.cards and render a cardCard component for each card object
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game <small>Marvel Edition</small></Header>
+        <Header score={this.state.score} highscore={this.state.highscore}>ClickyGame <small>Marvel Edition</small></Header>
+        <Panel />
         {this.state.cards.map(card => (
             <Card
               clickCount={this.clickCount}

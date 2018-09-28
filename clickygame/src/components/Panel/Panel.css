@@ -1,0 +1,45 @@
+.rules-alert {
+  background-image: url("../../img/ironman-panel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffff;
+  border-color: #faebcc;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  height: 200px;
+  width: 1030px;
+  margin-top: 57px;
+}
+
+h1 {
+  font-family: 'Marvel', sans-serif;
+  margin-left: 10px;
+}
+
+.glimage {
+  width: 320px;
+  height: 65px;
+  margin-left: 127px;
+}
+/* .alert {
+  padding: 21px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+} */
+
+/* .alert.alert-warning {
+  position: relative;
+	width: 100%;
+} */
+
+/* .rules {
+  position: relative;
+	width: 100%;
+} */
+
+/* .panel {
+	position: relative;
+	width: 100%;
+} */
