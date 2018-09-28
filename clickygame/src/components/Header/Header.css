@@ -1,0 +1,23 @@
+.header {
+  background-color: #CA432C;
+  width: 100%;
+  height: 63px;
+  font-size: 42px;
+  color: #F2D330;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  margin-bottom: 10px;
+  margin-top: -23px;
+  position: fixed;
+}
+
+.title {
+  float: left;
+  padding: 4px;
+  font-family: 'Marvel', sans-serif;
+}
+
+.scores {
+  float: right;
+  padding: 4px;
+  font-family: 'Marvel', sans-serif;
+}
