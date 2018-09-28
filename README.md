@@ -5,3 +5,5 @@ Once the user's score is reset after an incorrect guess, the game will reset.
 
 Technologies that I used: React, ES6, Bootstrap and CSS.
 
+![Uploading Screen Shot 2018-09-28 at 5.11.11 PM.png…]()
+
